@@ -34,7 +34,13 @@ button {
   width: 70%;
   max-width: 300px;
   height: 3rem;
-  background: linear-gradient(90deg, #2ecc71 0%, #27ae60 50%, #2ecc71 100%);
+  background: rgb(46, 204, 113);
+  background: linear-gradient(
+    90deg,
+    rgba(46, 204, 113, 1) 0%,
+    rgba(39, 174, 96, 1) 50%,
+    rgba(46, 204, 113, 1) 100%
+  );
   border-radius: 30px;
   color: #fff;
   font-size: 1.5rem;
@@ -42,6 +48,11 @@ button {
   outline: none;
   cursor: pointer;
   position: relative;
+  transition: all 0.3s ease-in-out;
+}
+button:hover {
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
+  transform: scale(1.04);
 }
 
 img {

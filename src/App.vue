@@ -5,10 +5,7 @@ import SocialButton from "./components/SocialButton.vue";
 <template>
   <main>
     <div class="profile-container">
-      <img
-        src="https://github.com/madruga665.png"
-        alt="fotografia de Luciano"
-      />
+      <img src="https://github.com/madruga665.png" alt="fotografia de Luciano" />
       <h1>Luciano Amâncio</h1>
       <p>{{"<Desenvolvedor Web />"}}</p>
     </div>
@@ -61,6 +58,11 @@ img {
   border-radius: 50%;
   margin-bottom: 1rem;
   border: 5px solid #2ecc71;
+  transition: all 0.3s ease-in-out;
+}
+img:hover {
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
+  transform: scale(1.04);
 }
 h1 {
   color: #fff;
