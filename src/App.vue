@@ -32,7 +32,7 @@ import SocialButton from "./components/SocialButton.vue";
       />
       <SocialButton
         image="icons/icons8-adobe-acrobat-reader.svg"
-        title="Currículo"
+        title="Meu Currículo"
         link="https://github.com/madruga665/madruga665.github.io/raw/main/public/docs/Curriculo%20Luciano%20Am%C3%A2ncio.pdf"
       />
     </section>
