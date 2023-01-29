@@ -33,7 +33,7 @@ button {
   align-items: center;
   width: 70%;
   max-width: 300px;
-  height: 3rem;
+  height: 2.5rem;
   background: rgb(46, 204, 113);
   background: linear-gradient(
     90deg,
@@ -50,6 +50,7 @@ button {
   position: relative;
   transition: all 0.3s ease-in-out;
 }
+
 button:hover {
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
   transform: scale(1.04);

@@ -5,7 +5,10 @@ import SocialButton from "./components/SocialButton.vue";
 <template>
   <main>
     <div class="profile-container">
-      <img src="https://github.com/madruga665.png" alt="fotografia de Luciano" />
+      <img
+        src="https://github.com/madruga665.png"
+        alt="fotografia de Luciano"
+      />
       <h1>Luciano Amâncio</h1>
       <p>{{"<Desenvolvedor Web />"}}</p>
     </div>
@@ -29,6 +32,11 @@ import SocialButton from "./components/SocialButton.vue";
         image="icons/icons8-instagram.svg"
         title="Instagram"
         link="https://www.instagram.com/madruga665"
+      />
+      <SocialButton
+        image="icons/icons8-code-folder.png"
+        title="Portifolio"
+        link="https://madruga665.vercel.app/"
       />
       <SocialButton
         image="icons/icons8-adobe-acrobat-reader.svg"
@@ -80,7 +88,7 @@ section {
   flex-direction: column;
   width: 100%;
   height: 100%;
-  margin-top: 50px;
+  margin-top: 30px;
   gap: 1.5rem;
 }
 </style>
